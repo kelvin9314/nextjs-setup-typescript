@@ -1,14 +1,12 @@
-import { NextPage } from "next";
 import Link from "next/link";
 
-const IndexPage: NextPage = () => {
+const AboutMePage = () => {
   return (
     <div>
-      <h1>Hello world</h1>
+      <h1>This is a About Me</h1>
       <Link href="/about"> Go to about page </Link>
     </div>
-
   )
 }
 
-export default IndexPage
+export default AboutMePage

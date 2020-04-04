@@ -2,3 +2,8 @@
 
 - Nextjs v9
 - Typescript
+
+## execution
+```
+yarn dev
+```
