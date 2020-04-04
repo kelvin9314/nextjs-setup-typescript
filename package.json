@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "static-page": "yarn serve out -p 8080 "
   },
   "dependencies": {
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
+    "axios": "^0.19.2",
     "emotion-theming": "^10.0.27",
     "next": "^9.3.4",
     "react": "^16.13.1",
@@ -22,6 +25,7 @@
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
+    "serve": "^11.3.0",
     "typescript": "^3.8.3"
   }
 }
