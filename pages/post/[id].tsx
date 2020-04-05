@@ -3,6 +3,7 @@ import axios from "axios";
 import { NextPage, GetStaticProps, GetStaticPaths } from "next";
 import { Heading, Flex, Link, Text } from "@chakra-ui/core";
 
+// TODO test for todo tag
 const SingPostPage: NextPage<{post: {
   userId: number;
   id: number;
@@ -25,6 +26,7 @@ const SingPostPage: NextPage<{post: {
   )
 }
 
+// FIXME test for bug tag
 // Static Side Generation (SSG)
 export const getStaticPaths: GetStaticPaths = async() => {
   const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
@@ -35,6 +37,7 @@ export const getStaticPaths: GetStaticPaths = async() => {
   return { paths, fallback: false }
 }
 
+// DONE test for DONE tag
 // Static Side Generation (SSG)
 export const getStaticProps: GetStaticProps = async({ params, preview, previewData }) => {
   const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
@@ -50,4 +53,5 @@ export const getStaticProps: GetStaticProps = async({ params, preview, previewDa
   }
 }
 
+// NOTE test for note tag
 export default SingPostPage
