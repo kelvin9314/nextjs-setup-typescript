@@ -11,7 +11,7 @@
     "static-page": "yarn serve out -p 8080 "
   },
   "dependencies": {
-    "@chakra-ui/core": "^0.7.0",
+    "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "axios": "^0.19.2",
@@ -20,14 +20,14 @@
     "node-fetch": "^2.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "swr": "^0.2.0"
+    "swr": "^0.2.3"
   },
   "devDependencies": {
-    "@types/node": "^13.11.0",
-    "@types/node-fetch": "^2.5.5",
-    "@types/react": "^16.9.32",
-    "@types/react-dom": "^16.9.6",
-    "serve": "^11.3.0",
-    "typescript": "^3.8.3"
+    "@types/node": "^14.0.23",
+    "@types/node-fetch": "^2.5.7",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "serve": "^11.3.2",
+    "typescript": "^3.9.6"
   }
 }
