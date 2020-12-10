@@ -1,6 +1,6 @@
-# Initialize a Next.js 9 project with TypeScript
+# Initialize a Next.js 10 project with TypeScript
 
-- Nextjs v9
+- Nextjs v10
 - Typescript
 
 ## execution
